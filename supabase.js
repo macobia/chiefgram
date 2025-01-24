@@ -8,4 +8,4 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 export { supabase };
 
 
-"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhydW12dmt5c2VsaHpqZnZ0Y3FsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc1NTc2OTgsImV4cCI6MjA1MzEzMzY5OH0.YgtTYbHd3pUtJAyVuIeUuKIbE2zvV-_1ldLgcCixZcE"
+
