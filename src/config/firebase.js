@@ -7,12 +7,12 @@ import { toast } from "react-toastify";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBkvloorRHfZrGhA00RCUpifsAdqltJOS0",
-  authDomain: "chiefgram-mac.firebaseapp.com",
-  projectId: "chiefgram-mac",
-  storageBucket: "chiefgram-mac.firebasestorage.app",
-  messagingSenderId: "500952907319",
-  appId: "1:500952907319:web:9c7841df3c9a67e3bb49b2"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
